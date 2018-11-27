@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Employee
+    {
+        static void Main(string[] args)
+        {
+            details();
+            Console.ReadLine();
+        }
+       static int  details()
+        {
+            int Employeeid,salary;
+            string Employeename, city, Department, Address;
+            Console.WriteLine("Enter the employee Id");
+            Employeeid = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the employeename");
+            Employeename = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("city");
+            city = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Department");
+            Department = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Address");
+            Address = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Salary");
+            salary= Convert.ToInt32(Console.ReadLine());
+            return salary;
+
+        }
+
+
+
+
+    }
+
+
+
+
+}
